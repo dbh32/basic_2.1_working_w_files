@@ -13,9 +13,10 @@ def get_shop_list_by_dishes(dishes, person_count):
                     d1 = result[ingredient['ingredient_name']]
                     d2 = d1['quantity'] + ingredient['quantity']
                     d1.update({'quantity': d2})
+                    # вспомогательные переменные
     # print(result)
     # Задача №2
-    # Запуск функции на 49 строке
+    # Запуск функции на 53 строке
 
 
 def create_dish():
